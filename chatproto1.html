@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: rgb(33, 40, 40);
+            margin: 0;
+            padding: 20px;
+            
+        }
+
+        h1 {
+            color: #d0e4c7;
+        }
+
+        .container {
+            background: rgb(33, 40, 40);
+            /* background: red; */
+            position: absolute;
+            align-self: center;
+            height: 600px;
+            width:900px;
+            margin-left: 20%;
+            /* margin-right: 10%x; */
+            display: flex;
+            /* top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px; */
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            
+        }
+
+        .button_main {
+            display: flex;
+            background-color: #5cb85c;
+            color: rgb(237, 228, 228);
+            padding: 20px 20px 20px 20px ;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border-radius: 200px;
+            margin: 10px 0;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            transition: transform 750ms;
+            
+            
+        }
+
+        .button_main:hover{
+            background-color: #3e8e41;
+            
+            transform: scale(1.4);
+        }
+
+
+        .button_sub1 {
+            display: flex;
+            background-color: #5cb85c;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            height: 150px;
+            width: 150px;
+            border-radius: 150px;
+            margin: 30px 70px 30px 60px;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            transition: transform 500ms;
+        }
+
+        .button_sub1:hover {
+            background-color: #45a745;
+            /* transition-duration: 750ms ; */
+            transform: scale(1.2);
+        }
+
+        .chat-box {
+            border: 1px solid #ccc;
+            height: 300px;
+            padding: 10px;
+            overflow-y: scroll;
+            margin-bottom: 10px;
+        }
+
+        .input-area {
+            display: flex;
+        }
+
+        .input-area input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .input-area button {
+            padding: 10px;
+            background-color: #f00808;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .input-area button:hover {
+            background-color: #f55a00;
+        }
+
+        .bt1:hover{
+            /* transform: rotate3d(-7, 7, 0, 30deg) scale(1.2); */
+            box-shadow: 10px 10px 10px #000000;  
+        }
+        .bt2:hover{
+            /* transform: rotate3d(7, 7, 0, 30deg) scale(1.2);  */
+            box-shadow: -10px 10px 10px #000000;
+        }
+        .bt3:hover{    
+            /* transform: rotate3d(0, 7, 0, 30deg) scale(1.2); */
+            box-shadow: 10px 5px 10px #000000;
+        }
+        .bt4:hover{    
+            /* transform: rotate3d(0, -7, 0, 30deg) scale(1.2); */
+            box-shadow:-10px 5px 10px #000000; 
+        }
+        .bt5:hover{    
+            /* transform: rotate3d(-7, -7, 0, 30deg) scale(1.2); */
+            box-shadow: 10px -10px 10px #000000; 
+        }
+        .bt6:hover{    
+            /* transform: rotate3d(7, -7, 0, 30deg) scale(1.2); */
+            box-shadow: -10px -10px 10px #000000; 
+        }
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center; margin-bottom: 100px;"><h1>Mental Health Chatbot</h1>
+    <p>Welcome! Choose an option below:</p>
+    <!-- <a href="chatbot_final.html" >Start Chatting</a> -->
+</div>
+    <div class="container">
+        <a href="#mood-test" class="button_sub1 bt1">Take a Mood Test</a>
+        <a href="#chat-history" class="button_sub1 bt2">Chat History</a>
+        <a href="#exercises" class="button_sub1 bt3">Exercises</a>
+        <a href="#chat" class="button_main">Start Chatting</a>
+        <a href="#social-links" class="button_sub1 bt4">Social Links</a>
+        <a href="#exercises" class="button_sub1 bt5">DUMMY1</a>
+        <a href="#exercises" class="button_sub1 bt6">DUMMY2</a>
+    </div>
+        
+</body>
+
+</html>
